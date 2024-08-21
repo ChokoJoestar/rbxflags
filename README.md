@@ -11,7 +11,7 @@
 > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
 
 #### Version: `8.21.24` `CLEAN`
-* **133 Currently Listed**
+* **134 Currently Listed**
 * **Updated Links**
 * **`Fix Reduced Motion Stuck` >> `Break Reduced Motion V4` This has been rolled out like a long time ago we forgot to remove it**
 - [x] Assign new maintainers
@@ -1037,20 +1037,8 @@ High
 
 <h1 align="center">Community Presets</h1>
 
-<h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
+<h4 align="center">We are not accepting performance Fast Flags that aren't listed or does nothing.</h4>
 
-### no idea what this is
-###### im in a 4x4 ye i got my wrist up
-```json
-{
-  "FFlagDebugSimDefaultPrimalSolver": "True",
-  "DFIntDebugSimPrimalLineSearch": "0",
-  "DFIntDebugSimPrimalWarmstartVelocity": "100",
-  "FFlagSimAdaptiveTimesteppingDefault2": "True",
-  "DFIntDebugSimPrimalWarmstartForce": "1",
-  "DFFlagSimHumanoidTimestepModelUpdate": "True"
-}
-```
 ### absolutely kill your game quality with fflags known to me
 ##### @dynamitebumblemouth
 ```json
