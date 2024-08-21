@@ -1,21 +1,22 @@
+> [!NOTE]
+> If you find our repository useful don't forget to star!
+
 <h3 align="center">
   <img src="assets/newgens.gif" width="256" alt="NEWGENS...">
 </h3>
 
 <h1 align="center">rbxflags</h1>
 
-<h3 align="center">
-  <a href="https://bloxflip.com/a/bloxstrap">
-    <img src="https://bloxflip.com/logotype.svg" width="200">
-  </a>
-</h3> 
-
 > [!CAUTION]
 > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
 
-#### Version: `8.12.24` `Clean`
-* **130 Currently Listed**
-* **`Enable Better Haptics` `Remove Haptics Option` `Custom Accessory Positions`**
+#### Version: `8.21.24` `CLEAN`
+* **133 Currently Listed**
+* **Updated Links**
+* **`Fix Reduced Motion Stuck` >> `Break Reduced Motion V4` This has been rolled out like a long time ago we forgot to remove it**
+- [x] Assign new maintainers
+- [x] Flag Cleanup 2 (We remove all patched FastFlags)
+- [x] Add extra FastFlags that we thought wouldn't be needed to be here
 
 ## Bloxstrap How to Use:
 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
@@ -54,6 +55,7 @@
 * **[Audio](https://github.com/luafv/rbxflags/tree/clean?tab=readme-ov-file#audio-related)**
 * **[Physics](https://github.com/luafv/rbxflags/tree/clean?tab=readme-ov-file#physics-abusive)**
 * **[Abusive Visuals](https://github.com/luafv/rbxflags/tree/clean?tab=readme-ov-file#abusive-visuals)**
+* **[Abusive Game Presets](https://github.com/luafv/rbxflags/tree/clean?tab=readme-ov-file#abusive-game-specific-presets)**
 * **[lol](https://github.com/luafv/rbxflags/tree/clean?tab=readme-ov-file#lol)**
 * **[Debug](https://github.com/luafv/rbxflags/tree/clean?tab=readme-ov-file#debug)**
 * **[Links](https://github.com/luafv/rbxflags/tree/clean?tab=readme-ov-file#links)**
@@ -524,12 +526,12 @@ High
 
 <h1 align="center">User Interface/Visuals</h1>
 
-### Fix Reduced Motion Stuck
+### Break Reduced Motion V4
 ###### @kezcn
 ![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
 ```json
 {
-    "FFlagFixReducedMotionStuckIGM2": "True"
+    "FFlagFixReducedMotionStuckIGM2": "False"
 }
 ```
 ### Revert "Charts" back to Discovery
@@ -785,6 +787,12 @@ High
     "FFlagAccessoryAdjustmentEnabled3": "True"
 }
 ```
+### Enable First Time User Experience for Chrome UI
+```json
+{
+    "FFlagEnableChromeFTUX": "True"
+}
+```
 ### Disable Haptics Option
 ```json
 {
@@ -879,14 +887,33 @@ High
 
 <h1 align="center">lol</h1>
 
-### E e ei/Charlie the steak fflag
-###### the fflag is on vacation sorry for inconvenience lol
-
-
 ### Stop the Chinese from spying on you
 ```json
 {
     "FStringTencentAuthPath": "null"
+}
+```
+### Don't Touch The Wall! 1
+```json
+{
+    "DFIntDebugSimPrimalNewtonIts": "-2147483647",
+    "DFIntDebugSimPrimalToleranceInv": "-2147483647",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+### Dont Touch The Wall! 2
+```json
+{
+    "DFIntDebugSimPrimalPreconditionerMinExp": "20",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-101",
+    "DFIntDebugSimPrimalPreconditioner": "1000",
+    "DFIntDebugSimPrimalWarmstartForce": "1",
+    "DFIntDebugSimPrimalNewtonIts": "4000",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalToleranceInv": "6",
+    "DFIntDebugSimPrimalLineSearch": "1"
 }
 ```
 ### omg i cant believe roblox is that dumb to do this...
@@ -1012,6 +1039,18 @@ High
 
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
 
+### no idea what this is
+###### im in a 4x4 ye i got my wrist up
+```json
+{
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalLineSearch": "0",
+  "DFIntDebugSimPrimalWarmstartVelocity": "100",
+  "FFlagSimAdaptiveTimesteppingDefault2": "True",
+  "DFIntDebugSimPrimalWarmstartForce": "1",
+  "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
 ### absolutely kill your game quality with fflags known to me
 ##### @dynamitebumblemouth
 ```json
@@ -1045,21 +1084,22 @@ High
 ### [rbxperf](https://github.com/luafv/rbxperf) *[Github Repo Link]*
 ### [Bindable Lag Switch](https://github.com/Hermivore8151/Bindable-LagSwitch) *[Github Repo Link]*
 ### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
+### [rbxservers.xyz](https://rbxservers.xyz/) *[Website]*
 
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
 
 <h3 align="center">
-  <a href="https://open.spotify.com/track/5v1yAVGillOAN3yqJ6pmPL">
-    <img src="https://i.scdn.co/image/ab67616d0000b273a2b4b9962756bbbbab374cc5" width="256" alt="Listen on Spotify">
+  <a href="https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M">
+    <img src="https://i.scdn.co/image/ab67616d0000b2738be07181aa935225a6f25d56" width="256" alt="Listen on Spotify">
   </a>
 </h3>
 
 
-<h3 align="center">Promotion - Y$, Future</h3>
+<h3 align="center">You Was Right - Lil Uzi Vert</h3>
 
 
 <h1 align="center">
-  <a href="https://open.spotify.com/track/5v1yAVGillOAN3yqJ6pmPL">
+  <a href="https://open.spotify.com/track/2ANLarE8yHVsLWW21nj79M">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
   </a>
 </h1>
@@ -1068,7 +1108,6 @@ High
 <p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
 <p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
 <h3 align="center">Sources</h3>
-<p align="center"><a href="https://discord.gg/YvbuWggPC6">Roblox Glitching Community</a></p>
 <p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
 <p align="center">The people who found these fastflags</p>
 <div align="center">
@@ -1112,4 +1151,10 @@ High
     <td>A fastvariable that can change at run-time, and<br/>automatically updates every 5 minutes.</td>
   </tr>
 </table>
+</div>
+<h3 align="center">
+  <a href="https://discord.gg/HNe7fzR9xgF">
+    <img src="https://c.tenor.com/fWO4Tmw3BeYAAAAC/tenor.gif" width="465">
+  </a>
+</h3>
 <h4 align="center">© 2024 luafv All Rights Reserved.</h4>
