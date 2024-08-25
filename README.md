@@ -7,16 +7,17 @@
 
 <h1 align="center">rbxflags</h1>
 
+<h4 align="center">Join our Discord Server for early access FastFlags before we publish</h4>
+
 > [!CAUTION]
 > Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.
 
-#### Version: `8.21.24` `CLEAN`
-* **134 Currently Listed**
-* **Updated Links**
-* **`Fix Reduced Motion Stuck` >> `Break Reduced Motion V4` This has been rolled out like a long time ago we forgot to remove it**
+#### Version: `8.26.24` `Clean`
+* **137 Currently Listed**
+* **`Increased Asset Preloading Count` `Reduced Avatar Item Particle in FP` `V2 Menu`
+- [ ] Rework Style
 - [x] Assign new maintainers
-- [x] Flag Cleanup 2 (We remove all patched FastFlags)
-- [x] Add extra FastFlags that we thought wouldn't be needed to be here
+- [x] Flag Cleanup 2
 
 ## Bloxstrap How to Use:
 1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
@@ -367,6 +368,12 @@ High
     "FFlagEnableCapturesHotkeyExperiment_v4": "False"
 }
 ```
+### Reduced Avatar Item Particle in FP
+```json
+{
+    "FFlagUserHideCharacterParticlesInFirstPerson": true
+}
+```
 ### FPS Unlocker in Roblox Menu Settings
 ```json
 {
@@ -476,6 +483,15 @@ High
     "FFlagEnableQuickGameLaunch": "True"
 }
 ```
+### Increased Asset Preloading Count
+###### Increases the maximum limit of preloaded assets from 100 to infinite, allowing games you’ve already played to load much faster by instantly accessing previously loaded assets. For this to be effective, the game must have been fully loaded at least once, preferably with the entire map cached. If a game has a "Skip Loading" button, it's recommended to use it, as these games typically include a countdown timer that, after reaching zero, merely confirms that all assets are loaded.
+###### @spectroscopic
+```
+{
+    "DFIntNumAssetsMaxToPreload": 9999999,
+    "DFIntAssetPreloading": 9999999
+}
+```
 ### Disable In-Game Purchases
 ```json
 {
@@ -556,6 +572,12 @@ High
     "FFlagEnableMenuModernizationABTest": "False",
     "FFlagEnableMenuModernizationABTest2": "False",
     "FFlagEnableV3MenuABTest3": "False"
+}
+```
+### V2 Menu
+```json
+{
+    "FIntNewInGameMenuPercentRollout3": "1000"
 }
 ```
 ### Custom Disconnect Message
@@ -1037,8 +1059,20 @@ High
 
 <h1 align="center">Community Presets</h1>
 
-<h4 align="center">We are not accepting performance Fast Flags that aren't listed or does nothing.</h4>
+<h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
 
+### no idea what this is
+###### im in a 4x4 ye i got my wrist up
+```json
+{
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalLineSearch": "0",
+  "DFIntDebugSimPrimalWarmstartVelocity": "100",
+  "FFlagSimAdaptiveTimesteppingDefault2": "True",
+  "DFIntDebugSimPrimalWarmstartForce": "1",
+  "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
 ### absolutely kill your game quality with fflags known to me
 ##### @dynamitebumblemouth
 ```json
@@ -1077,17 +1111,17 @@ High
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
 
 <h3 align="center">
-  <a href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY">
+  <a href="https://open.spotify.com/track/3cM1GiA3OqESGO5zEZATAP">
     <img src="https://shop.travisscott.com/cdn/shop/files/DaysRealBlue_1500x.jpg" width="256" alt="Listen on Spotify">
   </a>
 </h3>
 
 
-<h3 align="center">Days Before Rodeo - Travis Scott</h3>
+<h3 align="center">Backyard - Travis Scott</h3>
 
 
 <h1 align="center">
-  <a href="https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY">
+  <a href="https://open.spotify.com/track/3cM1GiA3OqESGO5zEZATAP">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
   </a>
 </h1>
